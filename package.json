@@ -1,0 +1,22 @@
+{
+  "name": "koa2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alienyu/koa2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alienyu/koa2/issues"
+  },
+  "homepage": "https://github.com/alienyu/koa2#readme",
+  "dependencies": {
+    "koa": "^2.5.1"
+  }
+}
