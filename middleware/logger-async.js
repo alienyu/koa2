@@ -6,7 +6,7 @@ module.exports = function () {
     return async function (ctx, next) {
         log(ctx);
         console.log("start3")
-        await next()
+        await next(11)
         console.log("start4")
 
     }
