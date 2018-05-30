@@ -1,19 +1,16 @@
-const Koa = require("koa");
-const app = new Koa();
+const Koa = require('koa') // koa v2
+const loggerAsync  = require('./middleware/logger-async');
+const otherAsync  = require('./middleware/other-async')
+const app = new Koa()
 
-app.use(async(ctx) => {
-    var text = "hello koa1";
-    await timeout().then((data) => {text = data});
-    ctx.body = text
-});
+app.use(loggerAsync())
+app.use(otherAsync())
 
-function timeout() {
-    return new Promise((resolve) => {
-        setTimeout(() => {
-            resolve("hello koa2")
-        }, 3000)
-    })
-}
+app.use(( ctx ) => {
+    console.log("start1")
+    ctx.body = 'hello world!'
+    console.log("start2")
+})
 
-app.listen(3000);
-console.log('[demo] start-quick is starting at port 3000');
+app.listen(3000)
+console.log('the server is starting at port 3000')
