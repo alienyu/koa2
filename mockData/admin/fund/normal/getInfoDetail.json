@@ -1,0 +1,303 @@
+{
+  "status": 200,
+  "errMsg": "",
+  "data": {
+    "key": 1,
+    "title": "普通资金",
+    "category": 1,
+    "investmentType": "2,3,4",
+    "investmentIndustry": "3,5,7,11,13",
+    "region": ["310000", "320000"],
+    "isNeedLastYearProfits": 1,
+    "lastYearProfitsNum": 55555.00,
+    "investMin": 502.00,
+    "investMax": 555.00,
+    "deadlineMin": 1,
+    "deadlineMax": 5,
+    "minRate": 1.22,
+    "isNeedMortgage": 1,
+    "mortgageType": "1,2",
+    "mortgageRateMin": 2.22,
+    "mortgageRateMax": 6.66,
+    "isNeedGuarantee": 1,
+    "guaranteeMethod": "担保方式1",
+    "estimateBenefitsTimes": 6,
+    "estimateBenefitsType": 2,
+    "needCost": 1,
+    "detail": "普通资金审核详情",
+    "accessoryName": "filename",
+    "accessoryLink": "/file/123.txt",
+    "auditStatus": 3,
+    "comment": "审核通过",
+    "stockType": 1,
+    "fundDetails": "普通资金审核详情",
+    "progress": 2,
+    "categoryStr": "债权",
+    "stockTypeStr": "参股",
+    "auditStatusStr": "已通过",
+    "investmentTypeStr": null,
+    "investmentIndustryStr": "教育培训,煤炭业,化肥农药,钢铁,电器设备",
+    "mortgageTypeStr": "固定资产,有价证券",
+    "estimateBenefitsTypeStr": "今年净利润",
+    "debts": [
+      {
+        "value": "房地产抵押融资",
+        "key": "1"
+      },
+      {
+        "value": "金融股权质押融资",
+        "key": "2"
+      },
+      {
+        "value": "股票质押融资",
+        "key": "3"
+      },
+      {
+        "value": "应收款质押融资(保理)",
+        "key": "4"
+      },
+      {
+        "value": "政府平台融资(PPP)",
+        "key": "5"
+      },
+      {
+        "value": "融资租赁",
+        "key": "6"
+      },
+      {
+        "value": "短期过桥",
+        "key": "7"
+      },
+      {
+        "value": "其他",
+        "key": "8"
+      }
+    ],
+    "stock": [
+      {
+        "value": "种子期(创意期)",
+        "key": "1"
+      },
+      {
+        "value": "初创期",
+        "key": "2"
+      },
+      {
+        "value": "成长期",
+        "key": "3"
+      },
+      {
+        "value": "成熟期(pre-ipo)",
+        "key": "4"
+      }
+    ],
+    "assetsAcquisition": [
+      {
+        "value": "土地或者在建工程",
+        "key": "1"
+      },
+      {
+        "value": "房产",
+        "key": "2"
+      },
+      {
+        "value": "矿产",
+        "key": "3"
+      },
+      {
+        "value": "票据",
+        "key": "4"
+      },
+      {
+        "value": "债权",
+        "key": "5"
+      },
+      {
+        "value": "其他收益权",
+        "key": "6"
+      },
+      {
+        "value": "无形资产",
+        "key": "7"
+      },
+      {
+        "value": "其他",
+        "key": "8"
+      }
+    ],
+    "industryList": [
+      {
+        "value": "市政公用",
+        "key": "1"
+      },
+      {
+        "value": "房地产",
+        "key": "2"
+      },
+      {
+        "value": "教育培训",
+        "key": "3"
+      },
+      {
+        "value": "石油燃气",
+        "key": "4"
+      },
+      {
+        "value": "煤炭业",
+        "key": "5"
+      },
+      {
+        "value": "化工化纤",
+        "key": "6"
+      },
+      {
+        "value": "化肥农药",
+        "key": "7"
+      },
+      {
+        "value": "建材",
+        "key": "8"
+      },
+      {
+        "value": "有色金属",
+        "key": "9"
+      },
+      {
+        "value": "建筑工程",
+        "key": "10"
+      },
+      {
+        "value": "钢铁",
+        "key": "11"
+      },
+      {
+        "value": "造纸印刷",
+        "key": "12"
+      },
+      {
+        "value": "电器设备",
+        "key": "13"
+      },
+      {
+        "value": "机械设备",
+        "key": "14"
+      },
+      {
+        "value": "贸易服务",
+        "key": "15"
+      },
+      {
+        "value": "运输物流",
+        "key": "16"
+      },
+      {
+        "value": "汽配",
+        "key": "17"
+      },
+      {
+        "value": "家电",
+        "key": "18"
+      },
+      {
+        "value": "日用品",
+        "key": "19"
+      },
+      {
+        "value": "纺织服装",
+        "key": "20"
+      },
+      {
+        "value": "旅游酒店",
+        "key": "21"
+      },
+      {
+        "value": "餐饮娱乐",
+        "key": "22"
+      },
+      {
+        "value": "文化传媒",
+        "key": "23"
+      },
+      {
+        "value": "零售连锁",
+        "key": "24"
+      },
+      {
+        "value": "食品饮料",
+        "key": "25"
+      },
+      {
+        "value": "酿酒造酒",
+        "key": "26"
+      },
+      {
+        "value": "农业",
+        "key": "27"
+      },
+      {
+        "value": "医药生物",
+        "key": "28"
+      },
+      {
+        "value": "银行",
+        "key": "29"
+      },
+      {
+        "value": "信托",
+        "key": "30"
+      },
+      {
+        "value": "券商",
+        "key": "31"
+      },
+      {
+        "value": "公募基金及子公司",
+        "key": "32"
+      },
+      {
+        "value": "保险",
+        "key": "33"
+      },
+      {
+        "value": "其他金融机构",
+        "key": "34"
+      },
+      {
+        "value": "IT互联网",
+        "key": "35"
+      },
+      {
+        "value": "通信",
+        "key": "36"
+      },
+      {
+        "value": "电子",
+        "key": "37"
+      },
+      {
+        "value": "综合类",
+        "key": "38"
+      },
+      {
+        "value": "国防军工",
+        "key": "39"
+      },
+      {
+        "value": "航空航天",
+        "key": "40"
+      },
+      {
+        "value": "节能环保",
+        "key": "41"
+      },
+      {
+        "value": "新能源",
+        "key": "42"
+      },
+      {
+        "value": "新材料",
+        "key": "43"
+      }
+    ]
+  }
+}
