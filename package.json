@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/alienyu/koa2#readme",
   "dependencies": {
+    "fs": "0.0.1-security",
     "koa": "^2.5.1",
     "koa-router": "^7.4.0",
-    "koa-static": "^4.0.3"
+    "koa-static": "^4.0.3",
+    "path": "^0.12.7"
   }
 }
