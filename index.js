@@ -1,5 +1,4 @@
 const Koa = require('koa')
-const fs = require('fs')
 const app = new Koa()
 const path = require('path')
 const static = require("koa-static");
@@ -9,7 +8,6 @@ const loggerMiddleware = require("./middleware/logger-async.js");
 
 // 加载路由中间件
 app.use(router.routes()).use(router.allowedMethods())
-
 // 静态资源目录对于相对入口文件index.js的路径
 const staticPath = './static'
 // 读取静态资源
